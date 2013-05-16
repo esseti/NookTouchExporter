@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">NookExporter</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+    <string name="button_export_close">Export and Close</string>
+    <string name="export_message">Exporting everything</string>
+    <string name="menu_setting">Item</string>
+    <string name="export_message_end">Saved</string>
+    <string name="message_text_field">Found %1$s books with %2$d total highlights to export </string>
+
 
 </resources>

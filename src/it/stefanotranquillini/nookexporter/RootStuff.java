@@ -33,7 +33,7 @@ public class RootStuff {
 		   p = Runtime.getRuntime().exec("su");   
 		   System.out.println("here we are");
 		   // Attempt to write a file to a root-only  
-//		   copy(new File("/data/data/com.bn.nook.reader.activities/databases/annotations.db"),new File("/data/data/it.stefanotranquillini.nookexporter/databases/databases.db"));
+		   copy(new File("/data/data/com.bn.nook.reader.activities/databases/annotations.db"),new File("/data/data/it.stefanotranquillini.nookexporter/databases/databases.db"));
 		   DataOutputStream os = new DataOutputStream(p.getOutputStream());  
 		  
 		   // Close the terminal  
