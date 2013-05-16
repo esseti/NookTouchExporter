@@ -1,23 +1,15 @@
 package it.stefanotranquillini.nookexporter;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-
-import android.app.ListActivity;
-import android.database.SQLException;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class TestDatabaseActivity extends Activity {
     private AnnotationsDS datasource;

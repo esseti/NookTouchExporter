@@ -8,8 +8,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import android.widget.Toast;
-
 public class RootStuff {
 	public void copy(File src, File dst) throws IOException {
 	    InputStream in = new FileInputStream(src);
